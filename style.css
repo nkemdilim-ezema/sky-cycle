@@ -1,0 +1,157 @@
+body {
+    font-family: "Reem Kufi Fun", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+}
+header {
+    background-color: #50cc8a;
+    color: black;
+    padding: 250px 100px;
+    text-align: center;
+    margin-top: 20px;
+    background-image: url(images/1.png);
+   background-position: right;
+   text-shadow: black;
+    /* Ensures the background image covers the entire banner */
+    background-position: center;
+}
+p .container {
+    border: 2px solid #ccc; /* Set border properties */
+    border-radius: 8px; /* Add rounded corners to the border */
+    padding: 20px; /* Add padding inside the box */
+    background-color: #fff; /* Set background color inside the box */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for depth effect */
+}
+nav {
+    background-color: #44ad75;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.banner {
+    
+    background-image: url('images/1.png'); /* Set the path to your background image */
+    background-size: cover; /* Cover the entire container with the background image */
+    background-position: right; /* Center the background image */
+    text-align: center; /* Center-align text horizontally */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 500px 60px;
+    
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+nav a:hover {
+    background-color: #50cc8a;
+}
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+.card {
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    list-style-type: none;
+}
+.btn {
+    background-color: #50cc8a;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+.btn:hover {
+    background-color: #44ad75;
+}
+.locations-list {
+    background-color: white;
+}
+footer {
+    background-color: #50cc8a;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+.locations-section {
+    background-color: #50cc8a;
+    padding: 20px;
+    padding-top: 0px;
+    margin-bottom: 20px;
+    border-radius: 35px;
+    color: white;
+    Font-size:40px;
+ p{ text-align: center;
+ word-spacing: 265px;
+ color: #000000;
+ Font-size: 35px;
+ padding-top: 0px;
+}
+       .card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px; 
+            margin-bottom: 20px;
+
+        }
+
+        /* Form Element Styles for Larger Appearance */
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%; 
+            padding: 15px; 
+            margin: 10px 0; /* Space between form elements */
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #44ad75;
+            color: white;
+            padding: 20px;
+            border-radius: 5px;
+            font-size: 18px;
+            display: block;
+            margin: 20px auto;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #50cc8a;
+        }
+
+        label {
+            font-size: 18px;
+            display: block;
+            margin-bottom: 5px;
+        }
+    
+        .kem {
+            text-align: center;
+ }
+
+    .kem {
+    font-size: 36px;
+    text-align: center; /* Center the text within the <h2> element */
+    }
+
+    .no-bullets {
+    list-style-type: none;
+    padding: 0;
+    }
+
+
+
